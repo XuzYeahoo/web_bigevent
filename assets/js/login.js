@@ -64,7 +64,7 @@ $(function () {
         localStorage.setItem("token", res.token);
         console.log(res.token);
         // 登录成功后自动跳转到后台主页
-        // location.href = "/index.html";
+        location.href = "/index.html";
       },
     });
   });
